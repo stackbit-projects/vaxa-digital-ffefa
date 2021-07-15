@@ -1,42 +1,42 @@
 // Abstracts
-@use "abstracts/functions";
-@use "abstracts/mixins";
-@use "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
 // Base
-@use "base/reset";
-@use "base/base";
+@import "base/reset";
+@import "base/base";
 
 // Utilities
-@use "utilities/grid";
-@use "utilities/flex";
-@use "utilities/spacing";
-@use "utilities/sizing";
-@use "utilities/typography";
-@use "utilities/accessibility";
-@use "utilities/clearing";
+@import "utilities/grid";
+@import "utilities/flex";
+@import "utilities/spacing";
+@import "utilities/sizing";
+@import "utilities/typography";
+@import "utilities/accessibility";
+@import "utilities/clearing";
 
 // Components
-@use "components/buttons";
-@use "components/icons";
-@use "components/forms";
-@use "components/tables";
-@use "components/menus";
-@use "components/avatars";
-@use "components/cover";
-@use "components/cards";
-@use "components/containers";
-@use "components/banner";
-@use "components/text-block";
+@import "components/buttons";
+@import "components/icons";
+@import "components/forms";
+@import "components/tables";
+@import "components/menus";
+@import "components/avatars";
+@import "components/cover";
+@import "components/cards";
+@import "components/containers";
+@import "components/banner";
+@import "components/text-block";
 
 // Layouts
-@use "layouts/site";
-@use "layouts/header";
-@use "layouts/footer";
-@use "layouts/announcement";
-@use "layouts/section";
-@use "layouts/post";
-@use "layouts/page";
+@import "layouts/site";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/announcement";
+@import "layouts/section";
+@import "layouts/post";
+@import "layouts/page";
 
 // Color variations
-@use "variations/modes";
+@import "variations/modes";
